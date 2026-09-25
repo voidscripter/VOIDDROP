@@ -4,7 +4,7 @@ Transfer files between devices on the same local network. VOIDDROP serves a smal
 
 ## Screenshot
 
-> Screenshot placeholder — add a screenshot here.
+![VOIDDROP Screenshot](sreenshot%20you%20dont%20need%20it/swash-2026-09-25_18%3A28%3A41.png)
 
 ## Features
 
