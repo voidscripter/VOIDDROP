@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#111016"><title>VOIDDROP — Local file sharing</title>
+  <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+  <main class="shell">
+    <header class="topbar">
+      <a class="brand" href="/" aria-label="VOIDDROP home"><span class="brand-mark">V</span><span>VOID<span class="brand-light">DROP</span></span></a>
+      <span class="status"><i></i> Local server online</span>
+    </header>
+    <section class="intro"><p class="eyebrow">PRIVATE. LOCAL. SIMPLE.</p><h1>Move files at the<br><span>speed of your network.</span></h1><p>Transfer directly between devices on the same Wi-Fi. Your files stay on this machine.</p></section>
+    <section class="dropzone" id="dropzone" tabindex="0" role="button" aria-label="Choose files to upload">
+      <input id="file-input" type="file" multiple hidden>
+      <div class="upload-icon">↑</div><h2>Drop files to send</h2><p>or <button id="browse" class="text-button">choose from your device</button></p><span class="drop-hint">Multiple files supported · Saved to this device</span>
+    </section>
+    <section id="transfer-section" class="panel hidden"><div class="section-heading"><h2>Transfers</h2><span id="transfer-count" class="muted"></span></div><div id="transfers"></div></section>
+    <section class="panel files-panel"><div class="section-heading"><div><p class="eyebrow">YOUR SHARED FOLDER</p><h2>Files</h2></div><span id="file-count" class="count-pill">0 files</span></div><div id="files" class="file-list"></div><div id="empty" class="empty">Files you upload will appear here.</div></section>
+    <section class="bottom-grid">
+      <div class="panel network-panel"><div class="section-heading"><div><p class="eyebrow">READY TO CONNECT</p><h2>Scan to connect</h2></div><span class="device-count"><i></i><span id="device-count">1</span> device</span></div><div class="connect-row"><img id="qr" alt="QR code for the VOIDDROP network address"><div><p class="muted">Open this address on a device connected to your local network.</p><a id="network-url" href="#">Loading address…</a><div class="network-meta">Port <span id="port">—</span> <span class="dot">·</span> Shared folder <span id="directory">—</span></div></div></div></div>
+      <div class="panel privacy-panel"><div class="privacy-icon">◇</div><h2>Stays on your network</h2><p>No accounts, no cloud, no external file hosts. Transfers travel directly to this computer.</p></div>
+    </section>
+    <footer>VOIDDROP <span>·</span> Open source, local by design</footer>
+  </main>
+  <dialog id="pin-dialog"><form id="pin-form"><div class="dialog-mark">V</div><h2>Welcome to VOIDDROP</h2><p>This share is protected. Enter the host’s PIN to continue.</p><label for="pin">Access PIN</label><input id="pin" inputmode="numeric" autocomplete="one-time-code" required><p id="pin-error" class="error"></p><button class="primary" type="submit">Connect</button></form></dialog>
+  <div id="toast" role="status" aria-live="polite"></div>
+  <script src="/static/app.js" defer></script>
+</body></html>
