@@ -402,11 +402,26 @@ Depending on your network configuration, firewall rules may affect connectivity.
 
 The interface is designed to work on both desktop and mobile screens.
 
+![VOIDDROP Screenshot](sreenshot%20you%20dont%20need%20it/swash-2026-09-25_18%3A28%3A41.png) 
+
 The main interface provides:
 
 ### Upload Area
 
 Drag and drop files or select them manually.
+
+### File List
+
+See files currently available in the shared directory.
+
+### Transfer Information
+
+View transfer progress and useful status information.
+
+### File Actions
+
+Download or delete files from the shared directory.
+
 
 ### File List
 
