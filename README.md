@@ -403,7 +403,7 @@ Depending on your network configuration, firewall rules may affect connectivity.
 The interface is designed to work on both desktop and mobile screens.
 
 ![VOIDDROP Screenshot](sreenshot%20you%20dont%20need%20it/swash-2026-09-25_18%3A28%3A41.png) 
-
+![VOIDDROP Screenshot](sreenshot%20you%20dont%20need%20it/swash-2026-09-25_network-hidden.png)
 The main interface provides:
 
 ### Upload Area
